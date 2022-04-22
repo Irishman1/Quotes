@@ -1,0 +1,134 @@
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+  }
+  
+  body {
+    font-size: 100%;
+  }
+  
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  main {
+    background-image: url("/bg.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: grid;
+  }
+  
+  h1 {
+    margin: 0;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+  
+  .wrapper {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: auto;
+    display: inline-block;
+    background-color: #F0EAD6;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 700px;
+    color: #616247;
+  }
+  
+  .inner {
+    padding: 15px;
+    border: 1px solid #D2C29D;
+    border-radius: 15px;
+  }
+  
+  blockquote {
+    margin: 40px 0 20px;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  
+  #quote-text {
+    font-style: italic;
+    display: inline;
+    margin: 10px;
+  }
+  
+  #quote-author {
+    text-align: right;
+  }
+  
+  a, button {
+    display: inline-block;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    width: 72px;
+    height: 36px;
+    border: 1px solid #8D9440;
+    text-decoration: none;
+    margin: 10px 8px 0;
+    vertical-align: bottom;
+    -webkit-box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+            box-shadow: 0 2px 4px -1px rgba(0,0,0,0.06), 0 4px 5px 0 rgba(0,0,0,0.06), 0 1px 10px 0 rgba(0,0,0,0.08);
+    outline: none;
+    position: relative;
+  }
+  
+  a:hover, button:hover {
+    background-color: white;
+  }
+  
+  i.fa, i.fas, i.fab {
+    color: #616247;
+  }
+  
+  .fa-dice, .fa-twitter {
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .tooltip-wrapper {
+    display: table;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tooltip {
+    font-size: 13px;
+    margin: 0;
+    height: 32px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  
+  #tweet, #tweet i, #get-quote, #get-quote i, .tooltip, blockquote i, .wrapper {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    main {
+      padding: 50px;
+    }
+    
+    blockquote {
+      margin: 40px 40px 20px;
+    }
+  }

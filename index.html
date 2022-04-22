@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="quotes-icon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,300i,400,400i&amp;subset=cyrillic,cyrillic-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <title>Случайная цитата</title>
+</head>
+
+
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="inner">
+                <h1>Машина случайных цитат</h1>
+                <blockquote>
+                    <i class="fa fa-quote-left"></i>
+                    <p id="quote-text"></p>
+                    <i class="fa fa-quote-right"></i>
+                    <p id="quote-author"></p>
+                </blockquote>
+                <div class="tooltip-wrapper">
+                    <p class="tooltip"></p>
+                </div>
+                <button id="get-quote"><i class="fas fa-dice"></i></button>
+                <a id="tweet"><i class="fab fa-twitter"></i></a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
